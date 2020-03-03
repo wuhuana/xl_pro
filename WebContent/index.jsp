@@ -57,7 +57,7 @@
     </div>
     <div style="padding: 5px 0; color: #ccc">中间隔离带</div>
     <div id="div2" class="text"> <!--可使用 min-height 实现编辑区域自动增加高度-->
-        <p>在吗在干嘛睡觉了吗，多喝热水</p>
+        <p>在吗在干嘛睡觉了吗，多喝热水.</p>
     </div>
 	</div>
     <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/wangEditor.min.js"></script>
