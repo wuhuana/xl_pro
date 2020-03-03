@@ -32,6 +32,7 @@
     	top:350px;
     	left:350px;
     	}
+    	#div1
         .toolbar {
             border: 1px solid #ccc;
         }
@@ -45,8 +46,6 @@
 	<div id="one">
 		<h1>新闻   运动   游戏   教育     </h1>
 	</div>
-    
-    </div>
     <div id="two">
     <h1>国内新闻</h1><br><br><br>
     <h1>国际新闻</h1><br><br><br>
@@ -55,11 +54,11 @@
     <div id="three">
     	<h1>今天天气真的开始回温了</h1>
     </div>
-    <script src="${pageContext.request.contextPath}/static/js/wangEditor.min.js"></script>
     <div id="div2" class="text"> <!--可使用 min-height 实现编辑区域自动增加高度-->
         <p>请输入内容</p>
     </div>
-    <div id="div1" class="toolbar">
+    <div id="div1" class="toolbar">    </div>
+    <script src="${pageContext.request.contextPath}/static/js/wangEditor.min.js"></script>
     <script type="text/javascript">
         var E = window.wangEditor
         var editor1 = new E('#div1', '#div2')  // 两个参数也可以传入 elem 对象，class 选择器
